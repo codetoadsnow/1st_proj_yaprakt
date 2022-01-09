@@ -1,7 +1,18 @@
 M_IN_KM = 1000
+
 class InfoMessage:
-    """Информационное сообщение о тренировке."""
-    pass
+        def __init__(self,
+                 training_type,
+                 duration,
+                 distance,
+                 speed,
+                 calories
+                 ) -> None:
+        self.training_type = training_type,
+        self.duration = duration,
+        self.distance = distance,
+        self.speed = speed,
+        self.calories = calories
 
 
 class Training:
